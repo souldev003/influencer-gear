@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* shared style */
+.heading-logo {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+}
+
+
+/* main style  */
+
+/* navber */
+#navber {
+    max-width: 1200px;
+    margin: 87px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 34px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+
+.menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hero section */
+#hero-section {
+    max-width: 1200px;
+    margin: 50px auto 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-heading {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.hero-heading span {
+    color: #E02C6D;
+}
+
+.hero-para {
+    font-weight: 600;
+    color: #3A3A3A;
+    max-width: 505px;
+    margin-bottom: 16px;
+}
+
+.pre-btn {
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: 2px solid transparent;
+    outline: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.img-content img {
+    background-image: url(images/Circle\ design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* company logo */
+
+#company-logo {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #fff;
+    max-width: 1140px;
+    /* border-top: 2px solid gray;
+    border-bottom: 2px solid gray; */
+    box-shadow: 2px 0 2px gray;
+}
+
+.logo-track {
+    display: flex;
+    gap: 5vw;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+
+.logo-track img {
+    width: auto;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+#company-logo:hover .logo-track {
+    animation-play-state: paused;
+}
