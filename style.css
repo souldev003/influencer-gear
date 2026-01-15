@@ -205,7 +205,7 @@
 /* collection section  */
 
 #collection-section {
-    max-width: 1140px;
+    max-width: 1047px;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
@@ -266,3 +266,7 @@
 .item9 {
     grid-template-areas: card-9;
 } */
+.see_more {
+    color: #E02C6D;
+    font-weight: bold;
+}
