@@ -87,6 +87,15 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.pre-btn:hover {
+    background-color: #FFFFFF;
+    color: #E02C6D;
+    border: 2px solid #E02C6D;
+    box-shadow: 0 0 10px rgb(224, 44, 109, 0.2);
 }
 
 .img-content img {
@@ -112,12 +121,13 @@
     max-width: 1140px;
     /* border-top: 2px solid gray;
     border-bottom: 2px solid gray; */
-    box-shadow: 2px 0 2px gray;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 -1px 0 #ccc, 0 1px 0 #ccc;
 }
 
 .logo-track {
     display: flex;
-    gap: 5vw;
+    gap: 5rem;
     width: max-content;
     animation: scroll 20s linear infinite;
 }
@@ -139,4 +149,23 @@
 
 #company-logo:hover .logo-track {
     animation-play-state: paused;
+}
+
+#collection-section {
+    max-width: 1140px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.collection-heading {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin-bottom: 30px;
+}
+
+.collection-items {
+    display: grid;
+    gap: 30px;
 }
