@@ -26,6 +26,42 @@
     box-shadow: 0 0 20px rgba(250, 7, 100, 0.5);
 }
 
+.card img {
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    color: #18191F;
+    font-size: 1.7rem;
+    line-height: 40px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.card .rate {
+    color: #000000;
+    font-size: 1.6rem;
+    line-height: 150%;
+}
+
+.stars {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.rate-details {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 25px;
+    color: #787885;
+    letter-spacing: 1.8%;
+    max-width: 196px;
+    margin-top: 5px;
+    /* display: flex;
+    align-items: start;
+    justify-content: flex-start; */
+}
+
 
 /* main style  */
 
@@ -171,7 +207,9 @@
 #collection-section {
     max-width: 1140px;
     margin: 100px auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .collection-heading {
